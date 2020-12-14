@@ -299,6 +299,10 @@ iframe {
         font-size: 50px;
     }
 
+    .hero__btn {
+        line-height: 30px;
+    }
+
     .present__content-left {
         display: none;
     }
@@ -334,9 +338,41 @@ iframe {
 }
 
 @media (max-width: 535px) {
+
+    br + br {
+        display: none;
+    }
+
     .hero__content {
         padding: 0 40px;
     }
+
+    .hero__title {
+        font-size: 35px;
+    }
+
+    .hero__subtitle {
+        font-size: 28px;
+        letter-spacing: 0;
+    }
+
+    .hero__btn {
+        font-size: 20px;
+        
+    }
+
+    .content-right__title {
+        font-size: 22px;
+    }
+
+    .content-right__subtitle {
+        font-size: 20px;
+    }
+
+    .content-right__text {
+        font-size: 18px;
+    }
+
     .product {
         width: 100%;
     }
